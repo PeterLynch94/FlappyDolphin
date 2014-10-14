@@ -6,7 +6,7 @@ using Sce.PlayStation.Core.Graphics;
 using Sce.PlayStation.HighLevel.GameEngine2D;
 using Sce.PlayStation.HighLevel.GameEngine2D.Base;
 
-namespace FlappyBird
+namespace FlappyDolphin
 {
 	public class Background
 	{	

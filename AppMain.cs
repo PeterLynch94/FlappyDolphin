@@ -10,7 +10,7 @@ using Sce.PlayStation.HighLevel.GameEngine2D;
 using Sce.PlayStation.HighLevel.GameEngine2D.Base;
 using Sce.PlayStation.HighLevel.UI;
 	
-namespace FlappyBird
+namespace FlappyDolphin
 {
 	public class AppMain
 	{
@@ -19,7 +19,7 @@ namespace FlappyBird
 		private static Sce.PlayStation.HighLevel.UI.Label				scoreLabel;
 		
 		private static Obstacle[]	obstacles;
-		private static Bird			bird;
+		private static Dolphin		dolphin;
 		private static Background	background;
 		private static int Score;
 		private static string scoreString;
@@ -42,7 +42,7 @@ namespace FlappyBird
 			}
 			
 			//Clean up after ourselves.
-			bird.Dispose();
+			dolphin.Dispose();
 			foreach(Obstacle obstacle in obstacles)
 				obstacle.Dispose();
 			background.Dispose();
@@ -81,8 +81,8 @@ namespace FlappyBird
 			//Create the background.
 			background = new Background(gameScene);
 			
-			//Create the flappy douche
-			bird = new Bird(gameScene);
+			//Create the flappy dolphin
+			dolphin = new Dolphin(gameScene);
 			
 			//Create some obstacles.
 			obstacles = new Obstacle[2];
@@ -99,20 +99,20 @@ namespace FlappyBird
 			scoreLabel.Text = scoreString;
 			//Determine whether the player tapped the screen
 			var touches = Touch.GetData(0);
-			//If tapped, inform the bird.
+			//If tapped, inform the dolphin.
 			if(touches.Count > 0)
-				bird.Tapped();
+				dolphin.Tapped();
 			
-			//Update the bird.
-			bird.Update(0.0f);
+			//Update the dolphin.
+			dolphin.Update(0.0f);
 			for(int i = 0; i < obstacles.Length; i++)
 			{
-				if(obstacles[i].HasCollidedWith(bird.getSprite()))
+				if(HasCollidedWith(dolphin.getSprite(), obstacles[i].getSprite(i)))
 				{
 					Score++;
 				}
 			}
-			if(bird.Alive)
+			if(dolphin.Alive)
 			{
 				//Move the background.
 				background.Update(0.0f);
@@ -122,6 +122,17 @@ namespace FlappyBird
 					obstacle.Update(0.0f);
 			}
 		}
+		
+		public static bool HasCollidedWith(SpriteUV sp, SpriteUV ob)
+		{
+			if(sp.Quad.Bounds2().Overlaps(ob.Quad.Bounds2()))
+			{
+				return true;
+			}
+			
+			return false;
+		}
+		
 		
 	}
 }

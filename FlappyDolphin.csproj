@@ -39,9 +39,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppMain.cs" />
-    <Compile Include="Bird.cs" />
     <Compile Include="Obstacle.cs" />
     <Compile Include="Background.cs" />
+    <Compile Include="Dolphin.cs" />
   </ItemGroup>
   <ItemGroup>
     <PsmMetadata Include="app.xml" />
@@ -57,10 +57,6 @@
     <ShaderProgram Include="shaders\Texture.vcg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="textures\bottompipe.png" />
-    <Content Include="textures\bird.png" />
-    <Content Include="textures\toppipe.png" />
-    <Content Include="textures\background.png" />
     <Content Include="textures\dolphin.png" />
     <Content Include="textures\BottomCoral.png" />
     <Content Include="textures\TopCoral.png" />

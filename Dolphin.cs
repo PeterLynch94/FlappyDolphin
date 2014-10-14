@@ -6,9 +6,9 @@ using Sce.PlayStation.Core.Graphics;
 using Sce.PlayStation.HighLevel.GameEngine2D;
 using Sce.PlayStation.HighLevel.GameEngine2D.Base;
 
-namespace FlappyBird
+namespace FlappyDolphin
 {
-	public class Bird
+	public class Dolphin
 	{
 		//Private variables.
 		private static SpriteUV 	sprite;
@@ -29,7 +29,7 @@ namespace FlappyBird
 		//public SpriteUV Sprite { get{return sprite;} }
 		
 		//Public functions.
-		public Bird (Scene scene)
+		public Dolphin (Scene scene)
 		{
 			textureInfo  = new TextureInfo("/Application/textures/dolphin.png");
 			
@@ -46,7 +46,6 @@ namespace FlappyBird
 			fallTimer = 0;
 			riseAmount = 0.0f;
 			rotationAngle = new Vector2(1.0f, 0.0f);
-		
 			
 			//Add to the current scene.
 			scene.AddChild(sprite);
@@ -84,15 +83,15 @@ namespace FlappyBird
 			}
 			else
 			{
-				//Increments fallAmount to make the bird fall more convincingly
+				//Increments fallAmount to make the dolphin fall more convincingly
 				if(fallAmount > -1.000f)
 				fallAmount += 0.015f;
 				
-				//Makes the bird rotate downwards by fallAmount
+				//Makes the dolphin rotate downwards by fallAmount
 				if(rotationAngle.Y > -0.500f)
 				rotationAngle.Y -= fallAmount;
 				
-				//Makes the bird fall slower at first, then speed up on its way down
+				//Makes the dolphin fall slower at first, then speed up on its way down
 				fallTimer++;
 				if(fallTimer <= 10)
 				sprite.Position = new Vector2(sprite.Position.X, sprite.Position.Y - 5);

@@ -6,11 +6,11 @@ using Sce.PlayStation.Core.Graphics;
 using Sce.PlayStation.HighLevel.GameEngine2D;
 using Sce.PlayStation.HighLevel.GameEngine2D.Base;
 
-namespace FlappyBird
+namespace FlappyDolphin
 {
 	public class Obstacle
 	{
-		const float kGap = 200.0f;
+		const float kGap = 150.0f;
 		
 		//Private variables.
 		private SpriteUV[] 	sprites;
@@ -89,17 +89,9 @@ namespace FlappyBird
 			return randomPosition;
 		}
 		
-		public bool HasCollidedWith(SpriteUV sp)
+		public SpriteUV getSprite(int i)
 		{
-			if(sp.Quad.Bounds2().Overlaps(sprites[0].Quad.Bounds2()))
-			{
-				return true;
-			} else if(sp.Quad.Bounds2().Overlaps(sprites[1].Quad.Bounds2()))
-			{
-				return true;
-			}
-			
-			return false;
+			return sprites[i];
 		}
 	}
 }

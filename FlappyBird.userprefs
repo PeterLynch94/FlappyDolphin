@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bird.cs">
+    <Files>
+      <File FileName="AppMain.cs" Line="116" Column="5" />
+      <File FileName="Background.cs" Line="59" Column="57" />
+      <File FileName="Bird.cs" Line="114" Column="19" />
+      <File FileName="Obstacle.cs" Line="67" Column="63" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

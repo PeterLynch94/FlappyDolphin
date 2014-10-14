@@ -1,0 +1,129 @@
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\app.exe.mdb
+E:\TGP\FlappyBird\FlappyBird\obj\Debug\shaders\shaders\Texture.cgx
+E:\TGP\FlappyBird\FlappyBird\obj\Debug\convertedpdb\app.exe.mdb
+E:\TGP\FlappyBird\FlappyBird\obj\Debug\app.exe
+E:\TGP\FlappyBird\FlappyBird\obj\Debug\app.pdb
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\app.info
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\shaders\Texture.cgx
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\app.exe
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\Sce.PlayStation.HighLevel.GameEngine2D.dll
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\System.Json.dll
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\System.Xml.dll
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\System.Runtime.Serialization.dll
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\System.Core.dll
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\System.ServiceModel.Web.dll
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\System.ServiceModel.dll
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\textures\bottompipe.png
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\textures\bird.png
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\textures\toppipe.png
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\textures\background.png
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\app.info
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\shaders\Texture.cgx
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\app.exe
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\Sce.PlayStation.HighLevel.GameEngine2D.dll
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\System.Json.dll
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\System.Xml.dll
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\System.Runtime.Serialization.dll
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\System.Core.dll
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\System.ServiceModel.Web.dll
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\System.ServiceModel.dll
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\app.exe.mdb
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\textures\bottompipe.png
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\textures\bird.png
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\textures\toppipe.png
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\textures\background.png
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird.psdp
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\Sce.PlayStation.HighLevel.UI.dll
+E:\TGP\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\Sce.PlayStation.HighLevel.UI.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\app.info
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\shaders\Texture.cgx
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\app.exe
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\Sce.PlayStation.HighLevel.GameEngine2D.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\System.Json.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\System.Xml.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\System.Runtime.Serialization.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\System.Core.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\System.ServiceModel.Web.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\System.ServiceModel.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\Sce.PlayStation.HighLevel.UI.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\app.exe.mdb
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\textures\bottompipe.png
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\textures\bird.png
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\textures\toppipe.png
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\textures\background.png
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\app.info
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\shaders\Texture.cgx
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\app.exe
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\Sce.PlayStation.HighLevel.GameEngine2D.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\System.Json.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\System.Xml.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\System.Runtime.Serialization.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\System.Core.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\System.ServiceModel.Web.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\System.ServiceModel.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\Sce.PlayStation.HighLevel.UI.dll
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\app.exe.mdb
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\textures\bottompipe.png
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\textures\bird.png
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\textures\toppipe.png
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\textures\background.png
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird.psdp
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\obj\Debug\shaders\shaders\Texture.cgx
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\obj\Debug\convertedpdb\app.exe.mdb
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\obj\Debug\app.exe
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\obj\Debug\app.pdb
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\textures\dolphin.png
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\textures\dolphin.png
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\textures\BottomCoral.png
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\textures\TopCoral.png
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\textures\BottomCoral.png
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\textures\TopCoral.png
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-unsigned\Application\textures\sea_Background.jpg
+C:\Users\l013531c\Documents\FlappyBird\FlappyBird\bin\Debug\FlappyBird-signed\Application\textures\sea_Background.jpg
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyBird\obj\Debug\shaders\shaders\Texture.cgx
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyBird\obj\Debug\app.exe
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\obj\Debug\shaders\shaders\Texture.cgx
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\obj\Debug\app.exe
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\app.info
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\shaders\Texture.cgx
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\app.exe
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\Sce.PlayStation.HighLevel.GameEngine2D.dll
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\System.Json.dll
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\System.Xml.dll
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\System.Runtime.Serialization.dll
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\System.Core.dll
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\System.ServiceModel.Web.dll
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\System.ServiceModel.dll
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\Sce.PlayStation.HighLevel.UI.dll
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\app.exe.mdb
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\textures\bottompipe.png
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\textures\bird.png
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\textures\toppipe.png
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\textures\background.png
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\textures\dolphin.png
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\textures\BottomCoral.png
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\textures\TopCoral.png
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-unsigned\Application\textures\sea_Background.jpg
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\app.info
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\shaders\Texture.cgx
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\app.exe
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\Sce.PlayStation.HighLevel.GameEngine2D.dll
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\System.Json.dll
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\System.Xml.dll
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\System.Runtime.Serialization.dll
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\System.Core.dll
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\System.ServiceModel.Web.dll
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\System.ServiceModel.dll
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\Sce.PlayStation.HighLevel.UI.dll
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\app.exe.mdb
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\textures\bottompipe.png
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\textures\bird.png
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\textures\toppipe.png
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\textures\background.png
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\textures\dolphin.png
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\textures\BottomCoral.png
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\textures\TopCoral.png
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird-signed\Application\textures\sea_Background.jpg
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\bin\Debug\FlappyBird.psdp
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\obj\Debug\convertedpdb\app.exe.mdb
+C:\Users\at-st_000\Desktop\Flappy Dolphin\Flappy Dolphin\FlappyDolphin\obj\Debug\app.pdb

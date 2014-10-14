@@ -21,8 +21,10 @@ namespace FlappyDolphin
 		private static Obstacle[]	obstacles;
 		private static Dolphin		dolphin;
 		private static Background	background;
-		private static int Score;
-		private static string scoreString;
+		private static int 			Score;	
+		private static string		scoreString;
+		private static int			gameState;
+		
 		public static void Main (string[] args)
 		{
 			Initialize();
@@ -91,6 +93,7 @@ namespace FlappyDolphin
 			
 			//Run the scene.
 			Director.Instance.RunWithScene(gameScene, true);
+			gameState = 1;
 		}
 		
 		public static void Update()
@@ -105,11 +108,17 @@ namespace FlappyDolphin
 			
 			//Update the dolphin.
 			dolphin.Update(0.0f);
-			for(int i = 0; i < obstacles.Length; i++)
+			
+			//loop through the obstacles to see when one collides with the dolphin
+			if(gameState == 1)
 			{
-				if(HasCollidedWith(dolphin.getSprite(), obstacles[i].getSprite(i)))
+				for(int i = 0; i < obstacles.Length; i++)
 				{
-					Score++;
+					if(HasCollidedWith(dolphin.getBounds(), obstacles[i].getBounds(i)))
+					{
+						//dolphin.Alive = false;
+						Score++;
+					}
 				}
 			}
 			if(dolphin.Alive)
@@ -123,9 +132,9 @@ namespace FlappyDolphin
 			}
 		}
 		
-		public static bool HasCollidedWith(SpriteUV sp, SpriteUV ob)
+		public static bool HasCollidedWith(Bounds2 sp, Bounds2 ob)
 		{
-			if(sp.Quad.Bounds2().Overlaps(ob.Quad.Bounds2()))
+			if(sp.Overlaps(ob))
 			{
 				return true;
 			}

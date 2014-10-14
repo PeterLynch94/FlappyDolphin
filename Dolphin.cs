@@ -18,11 +18,12 @@ namespace FlappyDolphin
 		private static bool			rise;
 		private static float		angle;
 		private static bool			alive;
-		private static Bounds2		collision;
+		private static Bounds2		collisionBox;
 		private static Vector2		rotationAngle;
 		private static float		fallAmount;
 		private static float 		riseAmount;
 		private static int 			fallTimer;
+		private static float 		scaleX, scaleY;
 		public bool Alive { get{return alive;} set{alive = value;} }
 		
 		//Accessors.
@@ -32,13 +33,15 @@ namespace FlappyDolphin
 		public Dolphin (Scene scene)
 		{
 			textureInfo  = new TextureInfo("/Application/textures/dolphin.png");
+			scaleX = 0.15f;
+			scaleY = 0.20f;
 			
 			sprite	 		= new SpriteUV();
 			sprite 			= new SpriteUV(textureInfo);	
 			sprite.Quad.S 	= textureInfo.TextureSizef;
 			sprite.Position = new Vector2(80.0f,Director.Instance.GL.Context.GetViewport().Height*0.5f);
 			sprite.Pivot 	= new Vector2(0.5f, 0.5f);
-			sprite.Scale 	= new Vector2(0.2f, 0.2f);
+			sprite.Scale 	= new Vector2(scaleX, scaleY);
 			angle = 0.000f;
 			rise  = false;
 			alive = true;
@@ -46,6 +49,7 @@ namespace FlappyDolphin
 			fallTimer = 0;
 			riseAmount = 0.0f;
 			rotationAngle = new Vector2(1.0f, 0.0f);
+			collisionBox = sprite.Quad.Bounds2();
 			
 			//Add to the current scene.
 			scene.AddChild(sprite);
@@ -60,7 +64,10 @@ namespace FlappyDolphin
 		{			
 			
 			sprite.RotationNormalize = rotationAngle;
-
+			Bounds2 b = collisionBox;
+			Vector2 a = sprite.Position;
+			b.Add(a);
+			collisionBox = b;
 			
 			if(rise)
 			{
@@ -116,14 +123,37 @@ namespace FlappyDolphin
 			}
 		}
 		
-//		public Bounds2 getBounds()
-//		{
-//			return collision;
-//		}
-		
-		public SpriteUV getSprite()
+		public Bounds2 getBounds()
 		{
-			return sprite;
+			Bounds2 b = collisionBox;
+			Vector2 a = sprite.Position;
+			b.Add(a);
+			collisionBox = b;
+			string s = "";
+			s = b.ToString();
+			Console.WriteLine("Dolphin: " + s);
+			
+			return collisionBox;
+		}
+		
+			public float getWidth()
+		{
+			return sprite.Quad.Point10.X;
+		}
+		
+		public float getHeight()
+		{
+			return sprite.Quad.Point11.Y;
+		}
+		
+		public float getX()
+		{
+			return sprite.Position.X;
+		}
+		
+		public float getY()
+		{
+			return sprite.Position.Y;
 		}
 	}
 }

@@ -18,7 +18,7 @@ namespace FlappyDolphin
 		private TextureInfo	textureInfoBottom;
 		private float		width;
 		private float		height;
-		
+		private Bounds2		collisionBox;
 		//Accessors.
 		//public SpriteUV SpriteTop 	 { get{return sprites[0];} }
 		//public SpriteUV SpriteBottom { get{return sprites[1];} }
@@ -44,9 +44,9 @@ namespace FlappyDolphin
 			scene.AddChild(sprites[1]);
 			
 			//Get sprite bounds.
-			Bounds2 b = sprites[0].Quad.Bounds2();
-			width  = b.Point10.X;
-			height = b.Point01.Y;
+			collisionBox = sprites[0].Quad.Bounds2();
+			width  = collisionBox.Point10.X;
+			height = collisionBox.Point01.Y;
 			
 			//Position pipes.
 			sprites[0].Position = new Vector2(startX,
@@ -63,8 +63,18 @@ namespace FlappyDolphin
 		
 		public void Update(float deltaTime)
 		{			
+			
 			sprites[0].Position = new Vector2(sprites[0].Position.X - 4, sprites[0].Position.Y);
 			sprites[1].Position = new Vector2(sprites[1].Position.X - 4, sprites[1].Position.Y);
+			Vector2 a = sprites[0].Position;
+			Bounds2 b = collisionBox;
+			b.Add(a);
+			collisionBox = b;
+//			Vector2 c = sprites[1].Position;
+//			Bounds2 d = collisionBox2;
+//			d.Add(c);
+//			collisionBox = d;
+			//collisionBox.Add(a);
 			
 			//If off the left of the viewport, loop them around.
 			if(sprites[0].Position.X < -width)
@@ -89,9 +99,36 @@ namespace FlappyDolphin
 			return randomPosition;
 		}
 		
-		public SpriteUV getSprite(int i)
+		public Bounds2 getBounds(int i)
 		{
-			return sprites[i];
+			Bounds2 b = sprites[i].Quad.Bounds2();
+			Vector2 a = sprites[i].Position;
+			b.Add(a);
+			collisionBox = b;
+			string s = "";
+			s = b.ToString();
+			Console.WriteLine("Obstacle " + i +": " + s);
+			return collisionBox;
+		}
+		
+		public float getWidth()
+		{
+			return width;
+		}
+		
+		public float getHeight()
+		{
+			return height;
+		}
+		
+		public float getX()
+		{
+			return sprites[0].Position.X;
+		}
+		
+		public float getY(int i)
+		{
+			return sprites[i].Position.Y;
 		}
 	}
 }

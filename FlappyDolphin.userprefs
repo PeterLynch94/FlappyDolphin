@@ -2,10 +2,10 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Dolphin.cs">
     <Files>
-      <File FileName="AppMain.cs" Line="13" Column="24" />
-      <File FileName="Background.cs" Line="9" Column="24" />
-      <File FileName="Dolphin.cs" Line="88" Column="26" />
-      <File FileName="Obstacle.cs" Line="13" Column="25" />
+      <File FileName="AppMain.cs" Line="120" Column="15" />
+      <File FileName="Background.cs" Line="59" Column="65" />
+      <File FileName="Dolphin.cs" Line="146" Column="32" />
+      <File FileName="Obstacle.cs" Line="114" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
